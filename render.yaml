@@ -3,9 +3,11 @@ services:
     name: claude-lens-backend
     env: python
     buildCommand: python3 -m pip install -r requirements.txt
-    startCommand: cd "phase 4/src" && uvicorn claude_lens.api.app:app --host 0.0.0.0 --port $PORT
+    startCommand: cd "phase 4/src" && python -m uvicorn claude_lens.api.app:app --host 0.0.0.0 --port $PORT
     envVars:
       - key: PORT
         value: "10000"
       - key: PYTHON_VERSION
         value: "3.11"
+      - key: PYTHONPATH
+        value: "./phase 4/src"
