@@ -59,12 +59,16 @@ def create_app() -> FastAPI:
     )
 
     @app.get("/health")
-    def health():
-        return {
-            "status": "ok",
-            "groq_configured": groq_configured(),
-            "demo_mode": env_flag("CLAUDE_LENS_DEMO_MODE"),
-        }
+def health():
+    return {
+        "status": "ok",
+        "groq_configured": groq_configured(),
+        "demo_mode": env_flag("CLAUDE_LENS_DEMO_MODE"),
+    }
+
+@app.get("/")
+def root():
+    return {"message": "Claude Lens API is running. Visit /docs for Swagger UI."}
 
     @app.post("/api/v1/chat/stream")
     def chat_stream(req: ChatStreamRequest):
