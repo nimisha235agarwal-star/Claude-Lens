@@ -1,4 +1,4 @@
-services:
+# Render config for Claude Lens backend (redeploy trigger)
   - type: web
     name: claude-lens-backend
     env: python
