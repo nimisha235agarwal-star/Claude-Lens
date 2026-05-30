@@ -4,6 +4,8 @@ version = "1.0.0"
 description = "Claude Lens — trust-oriented AI chat"
 requires-python = ">=3.10"
 dependencies = [
+  "fastapi>=0.110.0",
+  "uvicorn[standard]>=0.27.0",
   "groq>=0.18.0",
   "python-dotenv>=1.0.0",
 ]
