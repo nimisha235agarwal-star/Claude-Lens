@@ -1,0 +1,16 @@
+.row {
+  display: flex;
+  justify-content: flex-end;
+  padding: 8px 20px;
+}
+
+.bubble {
+  max-width: min(85%, 640px);
+  padding: 14px 18px;
+  border-radius: var(--radius-bubble);
+  background: var(--bg-user-bubble);
+  color: var(--text-primary);
+  font-family: var(--font-ui);
+  font-size: 15px;
+  line-height: 1.5;
+}

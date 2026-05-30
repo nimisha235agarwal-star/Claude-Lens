@@ -1,0 +1,22 @@
+{
+  "version": "1.0",
+  "challenge": {
+    "counterarguments": [
+      "The original answer assumes a top-tier program is the relevant benchmark. For most candidates, regional or online MBAs may offer comparable career outcomes at a fraction of the cost, and this trade-off is not explored."
+    ],
+    "weak_assumptions": [
+      "That the user is targeting a top-10 program. That the user has 3 to 7 years of experience, which is the typical MBA applicant profile. That the user can absorb or finance $150,000 to $220,000 in total costs. That the user's target industry values the credential."
+    ],
+    "alternative_viewpoints": [
+      "Some career advisors argue that executive education, bootcamps, and targeted certifications now replicate the signalling value of an MBA for a fraction of the cost, particularly in technology and product roles."
+    ],
+    "where_it_may_fail": [
+      "If the user is in a field where MBA hiring is declining, such as mid-level tech roles or creative industries, the degree may not open the doors the original answer implies. If the user carries significant existing debt or financial obligations, the additional loan burden could outweigh salary gains for many years. If the user attends a program outside the top 25, recruiting access may be limited and the credential may not carry the weight assumed in the original response.",
+      "---"
+    ]
+  },
+  "follow_up": {
+    "question": "What if I cannot afford a top school?",
+    "response": "The original framing implicitly privileges top-program outcomes. If cost is a constraint, the analysis changes substantially. A fully funded MBA at a strong regional school may outperform an unfunded degree at a top-20 program on a net-ROI basis. Scholarship data is publicly available from most programs and is frequently underutilised by applicants who self-select out before applying. Employer sponsorship is another underexplored route — many Fortune 500 companies offer partial or full tuition reimbursement for part-time MBA programs, effectively making the credential low-cost if you are willing to stay with the employer during and after the program.\n\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+  }
+}

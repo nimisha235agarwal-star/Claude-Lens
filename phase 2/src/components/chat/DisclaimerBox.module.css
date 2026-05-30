@@ -1,0 +1,23 @@
+.box {
+  display: flex;
+  gap: 12px;
+  margin: 8px 20px 16px;
+  padding: 14px 16px;
+  border-radius: 12px;
+  background: var(--bg-disclaimer);
+  border: 1px solid var(--border-subtle);
+}
+
+.icon {
+  flex-shrink: 0;
+  color: var(--accent-peach);
+  margin-top: 2px;
+}
+
+.text {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.5;
+  color: var(--text-secondary);
+  font-family: var(--font-ui);
+}

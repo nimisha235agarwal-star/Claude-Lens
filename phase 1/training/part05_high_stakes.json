@@ -1,0 +1,37 @@
+{
+  "version": "1.0",
+  "banner": "High-Stakes Mode is active. Uncertainty indicators are enhanced. Verify key claims independently before making any decisions.",
+  "disclaimer": "This recommendation depends heavily on personal financial assumptions and labour market conditions that cannot be verified at this time. Independent verification is strongly advised before making a decision of this magnitude.",
+  "high_stakes_main": {
+    "content": "Pursuing an MBA in 2027 is a significant financial and career commitment. The total cost including tuition, living expenses, and foregone income can exceed $350,000 for a full-time program, and average debt for MBA graduates without scholarships is $80,000 to $120,000 repaid over 5 to 10 years. Claims about the 2027 job market are based on trend extrapolation from 2023 and 2024 data. Actual market conditions three years out are unknown. This analysis assumes you are targeting a top-25 program with strong employer recruiting relationships. Outcomes at other programs vary significantly. This assumes stable personal finances and no major dependents or obligations that require sustained income during the two-year program.",
+    "claims": [
+      {
+        "sentence": "Pursuing an MBA in 2027 is a significant financial and career commitment. The total cost including tuition, living expenses, and foregone income can exceed $350,000 for a full-time program, and average debt for MBA graduates without scholarships is $80,000 to $120,000 repaid over 5 to 10 years.",
+        "label": "weak_evidence",
+        "explanation": ""
+      },
+      {
+        "sentence": "Claims about the 2027 job market are based on trend extrapolation from 2023 and 2024 data. Actual market conditions three years out are unknown.",
+        "label": "assumption",
+        "explanation": ""
+      },
+      {
+        "sentence": "This analysis assumes you are targeting a top-25 program with strong employer recruiting relationships. Outcomes at other programs vary significantly.",
+        "label": "assumption",
+        "explanation": ""
+      }
+    ],
+    "flags": [
+      "weak_evidence",
+      "assumption",
+      "assumption"
+    ],
+    "verification_steps": [
+      "Speak directly with a fee-only financial advisor who can model your personal debt and repayment scenario.",
+      "Connect with at least five recent graduates from your target programs who work in your intended post-MBA role.",
+      "Request the official employment report from each school you are considering — do not rely on rankings alone.",
+      "Model your own ROI using the FT MBA calculator at ft.com/mba-ranking.",
+      "If you are considering debt financing, check current graduate loan rates at studentaid.gov and calculate your monthly repayment obligation before committing."
+    ]
+  }
+}

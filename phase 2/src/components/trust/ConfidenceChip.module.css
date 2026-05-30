@@ -1,0 +1,54 @@
+.wrap {
+  position: relative;
+  display: inline-flex;
+  vertical-align: middle;
+  margin-left: 6px;
+}
+
+.chip {
+  border: none;
+  border-radius: var(--radius-chip);
+  font-size: 11px;
+  font-weight: 500;
+  padding: 2px 8px;
+  cursor: pointer;
+  font-family: var(--font-ui);
+  white-space: nowrap;
+}
+
+.wellSupported {
+  background: var(--chip-well-supported-bg);
+  color: var(--chip-well-supported-fg);
+}
+
+.inferred {
+  background: var(--chip-inferred-bg);
+  color: var(--chip-inferred-fg);
+}
+
+.speculative {
+  background: var(--chip-speculative-bg);
+  color: var(--chip-speculative-fg);
+}
+
+.missing {
+  background: var(--chip-missing-bg);
+  color: var(--chip-missing-fg);
+}
+
+.popover {
+  position: absolute;
+  left: 0;
+  top: calc(100% + 6px);
+  z-index: 20;
+  min-width: 220px;
+  max-width: 320px;
+  padding: 10px 12px;
+  border-radius: 10px;
+  background: var(--bg-elevated);
+  border: 1px solid var(--border-subtle);
+  color: var(--text-secondary);
+  font-size: 12px;
+  line-height: 1.45;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
+}

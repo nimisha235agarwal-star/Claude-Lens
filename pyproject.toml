@@ -1,0 +1,16 @@
+[project]
+name = "claude-lens"
+version = "1.0.0"
+description = "Claude Lens — trust-oriented AI chat"
+requires-python = ">=3.10"
+dependencies = [
+  "groq>=0.18.0",
+  "python-dotenv>=1.0.0",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers = ["integration: live Groq API (needs GROQ_API_KEY)"]

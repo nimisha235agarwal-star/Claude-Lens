@@ -1,0 +1,48 @@
+{
+  "version": "1.0",
+  "reasoning": {
+    "quick_answer": "Pursue an MBA in 2027 if you need an industry switch, a leadership credential, or access to a specific alumni network. Skip it if you are already on a clear track, cannot absorb the debt, or are targeting industries where the credential is declining in value.",
+    "key_assumptions": [
+      "This answer assumes you are considering a full-time residential program at an accredited institution. It assumes you have 3 to 7 years of work experience, which aligns with the typical MBA applicant profile. It assumes your target industry actively recruits from MBA programs. It assumes you can finance or absorb total costs of $150,000 to $220,000. It assumes the 2024 job market conditions for MBA graduates continue through 2027 without major disruption."
+    ],
+    "reasoning_summary": "The recommendation is built on a cost-benefit framework weighing the salary premium of an MBA against its total financial and opportunity cost. For careers in consulting and investment banking, the credential functions as a near-mandatory entry point, making the ROI relatively predictable. For other industries, the calculus is less clear. The 2027 timing introduces macroeconomic uncertainty around loan rates, hiring cycles, and the ongoing shift toward skills-based evaluation that may erode the credential's signalling value over time.",
+    "source_grounding": [
+      {
+        "title": "GMAC Corporate Recruiters Survey 2024 — tracks employer demand and salary benchmarks for MBA graduates globally. Available at gmac.com/research.",
+        "url": "https://gmac.com/research.",
+        "confidence": "high"
+      },
+      {
+        "title": "Poets and Quants MBA ROI Rankings — annual analysis of return on investment by program. Available at poetsandquants.com.",
+        "url": "https://poetsandquants.com.",
+        "confidence": "moderate"
+      },
+      {
+        "title": "Harvard Business School Employment Report — program-specific placement and salary data. Available at hbs.edu/mba/career-and-professional-development.",
+        "url": "https://hbs.edu/mba/career-and-professional-development.",
+        "confidence": "high"
+      },
+      {
+        "title": "Wharton MBA Employment Report — available at wharton.upenn.edu/mba/career-management.",
+        "url": "https://wharton.upenn.edu/mba/career-management.",
+        "confidence": "high"
+      },
+      {
+        "title": "Stanford GSB Employment Report — available at gsb.stanford.edu/programs/mba/career-services.",
+        "url": "https://gsb.stanford.edu/programs/mba/career-services.",
+        "confidence": "high"
+      },
+      {
+        "title": "Financial Times MBA Rankings and ROI data — available at ft.com/mba-ranking.",
+        "url": "https://ft.com/mba-ranking.",
+        "confidence": "moderate"
+      }
+    ],
+    "alternative_interpretations": [
+      "One view holds that any accredited MBA provides sufficient credential value for most employers and that chasing top-10 programs adds cost without proportional benefit for the majority of applicants.",
+      "A second view argues that the MBA's value has already peaked and that by 2027 skills-based hiring will further erode its premium, making alternative credentials a smarter investment.",
+      "A third view holds that the MBA is primarily a social investment in a peer network and should be evaluated on the quality and relevance of that network to your specific goals rather than on salary outcomes alone.",
+      "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+    ]
+  }
+}

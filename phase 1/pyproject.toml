@@ -1,0 +1,12 @@
+[project]
+name = "claude-lens-phase1"
+version = "1.0.0"
+description = "Phase 1 — data ingestion and training corpus for Claude Lens"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

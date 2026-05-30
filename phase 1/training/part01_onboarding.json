@@ -1,0 +1,22 @@
+{
+  "version": "1.0",
+  "trigger_keywords": [
+    "mba"
+  ],
+  "banner": {
+    "line1": "This looks like a high-stakes career and financial decision.",
+    "line2": "Enable High-Stakes Mode for added scrutiny and verification guidance.",
+    "actions": [
+      "enable",
+      "dismiss"
+    ]
+  },
+  "on_enable": {
+    "high_stakes_mode": true,
+    "tags": [
+      "career",
+      "decision",
+      "high-stakes"
+    ]
+  }
+}

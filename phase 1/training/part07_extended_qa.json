@@ -1,0 +1,219 @@
+{
+  "version": "1.0",
+  "extended_qa": [
+    {
+      "question": "What GMAT score do I need for a top MBA program?",
+      "assistant": {
+        "content": "Most top-10 programs report average GMAT scores between 720 and 740. Stanford GSB and Harvard Business School have reported averages above 730 in recent admissions cycles. However, GMAT score is one factor among many — work experience, essays, recommendations, and demonstrated leadership carry significant weight. Many programs now also accept the GRE as an equivalent. A score below the program average does not disqualify an applicant, but a strong score can compensate for weaknesses elsewhere. The Executive Assessment is accepted for EMBA programs and has a different score scale.",
+        "claims": [
+          {
+            "sentence": "Most top-10 programs report average GMAT scores between 720 and 740.",
+            "label": "well_supported",
+            "explanation": ""
+          },
+          {
+            "sentence": "Stanford GSB and Harvard Business School have reported averages above 730 in recent admissions cycles.",
+            "label": "well_supported",
+            "explanation": ""
+          },
+          {
+            "sentence": "However, GMAT score is one factor among many — work experience, essays, recommendations, and demonstrated leadership carry significant weight.",
+            "label": "well_supported",
+            "explanation": ""
+          },
+          {
+            "sentence": "Many programs now also accept the GRE as an equivalent.",
+            "label": "well_supported",
+            "explanation": ""
+          },
+          {
+            "sentence": "A score below the program average does not disqualify an applicant, but a strong score can compensate for weaknesses elsewhere.",
+            "label": "inferred",
+            "explanation": ""
+          },
+          {
+            "sentence": "The Executive Assessment is accepted for EMBA programs and has a different score scale.",
+            "label": "well_supported",
+            "explanation": ""
+          }
+        ],
+        "sources_note": "Harvard Business School admissions at hbs.edu/mba/admissions. GMAC GMAT data at gmac.com. Wharton admissions at wharton.upenn.edu/mba/admissions."
+      }
+    },
+    {
+      "question": "Should I do an MBA or a specialised master's degree?",
+      "assistant": {
+        "content": "A specialised master's degree such as an MS in Finance, MS in Data Analytics, or Master in Management is typically shorter, cheaper, and more focused than an MBA. It is better suited for candidates who want to deepen expertise in a specific domain rather than transition into general management. The MBA is broader and is designed for career switchers or those targeting leadership roles across functions. For candidates targeting investment banking or consulting from a non-business background, a specialised master's from a target school may open similar doors at lower cost. Employers in these fields have become increasingly open to MS candidates in recent years. The decision depends on whether your goal is depth or breadth, and whether you need the MBA's generalist network.",
+        "claims": [
+          {
+            "sentence": "A specialised master's degree such as an MS in Finance, MS in Data Analytics, or Master in Management is typically shorter, cheaper, and more focused than an MBA.",
+            "label": "well_supported",
+            "explanation": ""
+          },
+          {
+            "sentence": "It is better suited for candidates who want to deepen expertise in a specific domain rather than transition into general management.",
+            "label": "well_supported",
+            "explanation": ""
+          },
+          {
+            "sentence": "The MBA is broader and is designed for career switchers or those targeting leadership roles across functions.",
+            "label": "well_supported",
+            "explanation": ""
+          },
+          {
+            "sentence": "For candidates targeting investment banking or consulting from a non-business background, a specialised master's from a target school may open similar doors at lower cost.",
+            "label": "inferred",
+            "explanation": ""
+          },
+          {
+            "sentence": "Employers in these fields have become increasingly open to MS candidates in recent years.",
+            "label": "inferred",
+            "explanation": ""
+          },
+          {
+            "sentence": "The decision depends on whether your goal is depth or breadth, and whether you need the MBA's generalist network.",
+            "label": "requires_human_judgment",
+            "explanation": ""
+          }
+        ],
+        "sources_note": "QS Masters in Finance Rankings at topuniversities.com. Financial Times Masters in Management Rankings at ft.com/mim-ranking."
+      }
+    },
+    {
+      "question": "How do I know if I am a competitive MBA applicant?",
+      "assistant": {
+        "content": "Competitive applicants to top programs typically have 3 to 7 years of work experience, a GMAT or GRE score near or above the program average, and a demonstrated record of leadership or impact in their roles. Undergraduate GPA matters but is weighted less heavily than professional accomplishments for experienced candidates. Adcoms look for a coherent career narrative — why an MBA now, why this program, where you are going. Underrepresented backgrounds, international experience, and entrepreneurial track records can strengthen an application. The most honest assessment of your competitiveness comes from speaking with admissions consultants or alumni interviewers who know the specific programs you are targeting.",
+        "claims": [
+          {
+            "sentence": "Competitive applicants to top programs typically have 3 to 7 years of work experience, a GMAT or GRE score near or above the program average, and a demonstrated record of leadership or impact in their roles.",
+            "label": "well_supported",
+            "explanation": ""
+          },
+          {
+            "sentence": "Undergraduate GPA matters but is weighted less heavily than professional accomplishments for experienced candidates.",
+            "label": "inferred",
+            "explanation": ""
+          },
+          {
+            "sentence": "Adcoms look for a coherent career narrative — why an MBA now, why this program, where you are going.",
+            "label": "well_supported",
+            "explanation": ""
+          },
+          {
+            "sentence": "Underrepresented backgrounds, international experience, and entrepreneurial track records can strengthen an application.",
+            "label": "inferred",
+            "explanation": ""
+          },
+          {
+            "sentence": "The most honest assessment of your competitiveness comes from speaking with admissions consultants or alumni interviewers who know the specific programs you are targeting.",
+            "label": "requires_human_judgment",
+            "explanation": ""
+          }
+        ],
+        "sources_note": "Clear Admit admissions resources at clearadmit.com. Poets and Quants applicant profiles at poetsandquants.com/mba-applicant-profiles."
+      }
+    },
+    {
+      "question": "What are the best MBA programs for 2027?",
+      "assistant": {
+        "content": "Based on current rankings and employer perception, the consistently top-ranked full-time MBA programs include Harvard Business School, Stanford Graduate School of Business, Wharton at the University of Pennsylvania, Booth at the University of Chicago, Kellogg at Northwestern, MIT Sloan, Columbia Business School, Haas at UC Berkeley, Tuck at Dartmouth, and Yale School of Management. Rankings shift modestly year to year but the top cluster is relatively stable. The best program for you specifically depends on your target industry, geographic preference, and whether a particular school has a strong alumni network in your intended field. European programs such as INSEAD, LBS, and IMD are competitive alternatives particularly for candidates with international career goals.",
+        "claims": [
+          {
+            "sentence": "Based on current rankings and employer perception, the consistently top-ranked full-time MBA programs include Harvard Business School, Stanford Graduate School of Business, Wharton at the University of Pennsylvania, Booth at the University of Chicago, Kellogg at Northwestern, MIT Sloan, Columbia Business School, Haas at UC Berkeley, Tuck at Dartmouth, and Yale School of Management.",
+            "label": "well_supported",
+            "explanation": ""
+          },
+          {
+            "sentence": "Rankings shift modestly year to year but the top cluster is relatively stable.",
+            "label": "well_supported",
+            "explanation": ""
+          },
+          {
+            "sentence": "The best program for you specifically depends on your target industry, geographic preference, and whether a particular school has a strong alumni network in your intended field.",
+            "label": "requires_human_judgment",
+            "explanation": ""
+          },
+          {
+            "sentence": "European programs such as INSEAD, LBS, and IMD are competitive alternatives particularly for candidates with international career goals.",
+            "label": "well_supported",
+            "explanation": ""
+          }
+        ],
+        "sources_note": "US News MBA Rankings at usnews.com/best-graduate-schools/top-business-schools. Financial Times Global MBA Rankings at ft.com/mba-ranking. The Economist MBA Rankings at economist.com/whichmba."
+      }
+    },
+    {
+      "question": "What is the application timeline for MBA programs starting in 2027?",
+      "assistant": {
+        "content": "Most top MBA programs operate on a round-based admissions calendar with two to three rounds per year. For programs beginning in autumn 2027, Round 1 deadlines will likely fall in September to October 2026, Round 2 in January 2027, and Round 3 in March to April 2027. [Inferred — based on historical patterns] Round 1 is generally considered most competitive for scholarships and slightly less competitive for admission. Round 2 is the largest round and is considered by many adcoms to be equally competitive for admission, though scholarship pools may be smaller. Round 3 is typically only recommended for candidates with exceptionally compelling profiles or those using it as a backup. Preparation including GMAT study, essay drafting, and recommendation coordination typically takes 6 to 12 months.",
+        "claims": [
+          {
+            "sentence": "Most top MBA programs operate on a round-based admissions calendar with two to three rounds per year.",
+            "label": "well_supported",
+            "explanation": ""
+          },
+          {
+            "sentence": "For programs beginning in autumn 2027, Round 1 deadlines will likely fall in September to October 2026, Round 2 in January 2027, and Round 3 in March to April 2027. [Inferred — based on historical patterns] Round 1 is generally considered most competitive for scholarships and slightly less competitive for admission.",
+            "label": "inferred",
+            "explanation": ""
+          },
+          {
+            "sentence": "Round 2 is the largest round and is considered by many adcoms to be equally competitive for admission, though scholarship pools may be smaller.",
+            "label": "inferred",
+            "explanation": ""
+          },
+          {
+            "sentence": "Round 3 is typically only recommended for candidates with exceptionally compelling profiles or those using it as a backup.",
+            "label": "well_supported",
+            "explanation": ""
+          },
+          {
+            "sentence": "Preparation including GMAT study, essay drafting, and recommendation coordination typically takes 6 to 12 months.",
+            "label": "well_supported",
+            "explanation": ""
+          }
+        ],
+        "sources_note": "MBA program websites directly — check hbs.edu, wharton.upenn.edu, gsb.stanford.edu for official round deadlines when published."
+      }
+    },
+    {
+      "question": "Can I get an MBA scholarship?",
+      "assistant": {
+        "content": "Yes. Merit-based scholarships are available at most top MBA programs, though they are competitive. Full-tuition scholarships are rare at top programs but partial scholarships covering 25 to 75 percent of tuition are awarded to a meaningful portion of each cohort. Need-based aid is also available and varies by program. Fellowship programs targeting specific communities — women in business, underrepresented minorities, veterans, social impact candidates — provide additional funding pathways. Employer sponsorship is an underutilised option for candidates at large organisations with tuition assistance programs. Applying in Round 1 is generally associated with better scholarship outcomes, though programs vary in their policies.",
+        "claims": [
+          {
+            "sentence": "Yes. Merit-based scholarships are available at most top MBA programs, though they are competitive.",
+            "label": "well_supported",
+            "explanation": ""
+          },
+          {
+            "sentence": "Full-tuition scholarships are rare at top programs but partial scholarships covering 25 to 75 percent of tuition are awarded to a meaningful portion of each cohort.",
+            "label": "well_supported",
+            "explanation": ""
+          },
+          {
+            "sentence": "Need-based aid is also available and varies by program.",
+            "label": "well_supported",
+            "explanation": ""
+          },
+          {
+            "sentence": "Fellowship programs targeting specific communities — women in business, underrepresented minorities, veterans, social impact candidates — provide additional funding pathways.",
+            "label": "well_supported",
+            "explanation": ""
+          },
+          {
+            "sentence": "Employer sponsorship is an underutilised option for candidates at large organisations with tuition assistance programs.",
+            "label": "inferred",
+            "explanation": ""
+          },
+          {
+            "sentence": "Applying in Round 1 is generally associated with better scholarship outcomes, though programs vary in their policies.",
+            "label": "inferred",
+            "explanation": ""
+          }
+        ],
+        "sources_note": "Scholarship database at mba.com/scholarships. Program-specific fellowship pages at hbs.edu/mba/financial-aid and gsb.stanford.edu/programs/mba/financial-aid."
+      }
+    }
+  ]
+}

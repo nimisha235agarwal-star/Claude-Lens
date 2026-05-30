@@ -1,0 +1,87 @@
+.row {
+  padding: 12px 20px 24px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.02);
+}
+
+.body {
+  max-width: min(92%, 720px);
+}
+
+.verificationBox {
+  margin-top: 20px;
+  padding: 14px 16px;
+  border-radius: 10px;
+  background: rgba(232, 197, 71, 0.05);
+  border: 1px dashed rgba(232, 197, 71, 0.25);
+}
+
+.verificationTitle {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--accent-peach);
+  margin: 0 0 8px;
+}
+
+.verificationList {
+  margin: 0;
+  padding-left: 18px;
+}
+
+.verificationItem {
+  font-size: 12.5px;
+  line-height: 1.5;
+  color: var(--text-secondary);
+  margin-bottom: 6px;
+}
+
+.verificationItem:last-child {
+  margin-bottom: 0;
+}
+
+.footerPanel {
+  margin-top: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.metaRow {
+  display: flex;
+  align-items: center;
+}
+
+.modelLabel {
+  font-size: 11px;
+  color: var(--text-muted);
+}
+
+.actionsRow {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 6px;
+}
+
+.actionBtn {
+  background: none;
+  border: none;
+  color: var(--accent-peach);
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+  padding: 4px 0;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  text-decoration: underline;
+  text-decoration-color: rgba(232, 165, 114, 0.25);
+  text-underline-offset: 3px;
+}
+
+.actionBtn:hover {
+  text-decoration-color: var(--accent-peach);
+}
+
+.btnIcon {
+  font-size: 12px;
+}

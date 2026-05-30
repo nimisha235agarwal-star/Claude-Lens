@@ -1,0 +1,225 @@
+.sidebar {
+  width: 260px;
+  height: 100%;
+  background: var(--bg-elevated);
+  border-right: 1px solid var(--border-subtle);
+  display: flex;
+  flex-direction: column;
+  color: var(--text-primary);
+  font-family: var(--font-ui);
+}
+
+.logoArea {
+  padding: 20px 24px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+.lensIcon {
+  color: var(--accent-orange);
+  flex-shrink: 0;
+}
+
+.logoText {
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
+.actionsArea {
+  padding: 16px 20px;
+}
+
+.newChatBtn {
+  width: 100%;
+  background: transparent;
+  border: 1px dashed rgba(232, 120, 74, 0.4);
+  color: var(--accent-peach);
+  border-radius: 8px;
+  padding: 10px;
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.newChatBtn:hover {
+  background: rgba(232, 120, 74, 0.05);
+  border-color: var(--accent-orange);
+  color: var(--text-primary);
+}
+
+.historyList {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+  padding: 0 12px;
+}
+
+.sectionHeader {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text-muted);
+  font-weight: 600;
+  padding: 8px 12px;
+}
+
+.emptyHistory {
+  font-size: 12px;
+  color: var(--text-muted);
+  padding: 20px 12px;
+  font-style: italic;
+  text-align: center;
+}
+
+.scrollContainer {
+  flex: 1;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.historyItem {
+  padding: 10px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  transition: background 0.15s ease;
+}
+
+.historyItem:hover {
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.activeItem {
+  background: rgba(232, 120, 74, 0.08) !important;
+}
+
+.activeItem:hover {
+  background: rgba(232, 120, 74, 0.12) !important;
+}
+
+.itemTitle {
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--text-primary);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.itemFooter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.itemDate {
+  font-size: 11px;
+  color: var(--text-muted);
+}
+
+.deleteBtn {
+  background: none;
+  border: none;
+  font-size: 12px;
+  cursor: pointer;
+  opacity: 0;
+  transition: opacity 0.15s ease;
+  padding: 2px;
+}
+
+.historyItem:hover .deleteBtn {
+  opacity: 0.65;
+}
+
+.deleteBtn:hover {
+  opacity: 1 !important;
+}
+
+.footer {
+  padding: 16px 20px;
+  border-top: 1px solid var(--border-subtle);
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.hsToggleRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hsLabelContainer {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.hsLabelText {
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.infoIcon {
+  font-size: 11px;
+  color: var(--text-muted);
+  cursor: help;
+}
+
+.toggle {
+  position: relative;
+  width: 36px;
+  height: 20px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 999px;
+  border: none;
+  cursor: pointer;
+  transition: background 0.2s ease;
+  padding: 0;
+}
+
+.toggleOn {
+  background: var(--accent-orange);
+}
+
+.toggleThumb {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 16px;
+  height: 16px;
+  background: #ffffff;
+  border-radius: 50%;
+  transition: transform 0.2s ease;
+}
+
+.toggleOn .toggleThumb {
+  transform: translateX(16px);
+}
+
+.clearAllBtn {
+  width: 100%;
+  background: rgba(180, 60, 40, 0.08);
+  border: 1px solid rgba(180, 60, 40, 0.25);
+  color: #f5c4bc;
+  border-radius: 6px;
+  padding: 8px;
+  font-size: 12px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.clearAllBtn:hover {
+  background: rgba(180, 60, 40, 0.15);
+  border-color: rgba(180, 60, 40, 0.4);
+}

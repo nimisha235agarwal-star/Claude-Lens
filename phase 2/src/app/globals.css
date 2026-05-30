@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,400;8..60,500&display=swap');
+
+:root {
+  --bg-primary: #1a1614;
+  --bg-elevated: #252019;
+  --bg-user-bubble: #2d2824;
+  --bg-disclaimer: #3d2f24;
+  --text-primary: #f5f0eb;
+  --text-secondary: #b8aea4;
+  --text-muted: #8a8078;
+  --accent-orange: #e8784a;
+  --accent-peach: #e8a574;
+  --border-subtle: #3d3530;
+
+  --font-ui: 'Inter', system-ui, sans-serif;
+  --font-body: 'Source Serif 4', Georgia, 'Times New Roman', serif;
+
+  --radius-bubble: 16px;
+  --radius-input: 24px;
+  --radius-chip: 999px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  font-family: var(--font-ui);
+  -webkit-font-smoothing: antialiased;
+}
+
+button,
+input,
+textarea {
+  font-family: inherit;
+}
+
+a {
+  color: inherit;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}

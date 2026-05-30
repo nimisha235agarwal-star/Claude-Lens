@@ -1,0 +1,60 @@
+.prose {
+  font-family: var(--font-body);
+  font-size: 16px;
+  line-height: 1.7;
+  color: var(--text-primary);
+  margin: 0;
+}
+
+.claimSpan {
+  display: inline;
+  white-space: normal;
+  word-wrap: break-word;
+}
+
+.claimText {
+  cursor: pointer;
+  text-decoration: underline;
+  text-decoration-color: rgba(232, 165, 116, 0.25);
+  text-underline-offset: 3px;
+  transition: text-decoration-color 0.15s ease;
+}
+
+.claimText:hover {
+  text-decoration-color: var(--accent-peach);
+  background: rgba(232, 165, 116, 0.03);
+}
+
+.hsAssumption {
+  text-decoration-color: rgba(232, 197, 71, 0.55) !important;
+}
+
+.hsAssumption:hover {
+  text-decoration-color: #e8c547 !important;
+  background: rgba(232, 197, 71, 0.05);
+}
+
+.warningBadge {
+  font-size: 13px;
+  margin-right: 4px;
+  display: inline-block;
+  vertical-align: middle;
+  cursor: help;
+  user-select: none;
+}
+
+.cursor {
+  display: inline-block;
+  width: 2px;
+  height: 1em;
+  margin-left: 2px;
+  vertical-align: text-bottom;
+  background: var(--accent-orange);
+  animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}

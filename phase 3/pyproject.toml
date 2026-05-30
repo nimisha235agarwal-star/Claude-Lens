@@ -1,0 +1,11 @@
+[project]
+name = "claude-lens-phase3"
+version = "1.0.0"
+requires-python = ">=3.10"
+dependencies = ["groq>=0.18.0", "python-dotenv>=1.0.0"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

@@ -1,0 +1,75 @@
+.container {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  height: 100dvh;
+  overflow: hidden;
+  background: var(--bg-primary);
+  color: var(--text-primary);
+}
+
+.mainCol {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  height: 100%;
+}
+
+.shell {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+  background: var(--bg-primary);
+  position: relative;
+}
+
+.loading {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-muted);
+}
+
+.inputArea {
+  flex-shrink: 0;
+  padding: 12px 20px 8px;
+  border-top: 1px solid var(--border-subtle);
+  background: var(--bg-primary);
+  z-index: 10;
+}
+
+.apiError {
+  margin: 0 20px 8px;
+  padding: 10px 14px;
+  border-radius: 10px;
+  background: rgba(180, 60, 40, 0.2);
+  border: 1px solid rgba(180, 60, 40, 0.4);
+  color: #f5c4bc;
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.dismissErr {
+  background: none;
+  border: none;
+  color: inherit;
+  font-size: 18px;
+  cursor: pointer;
+  padding: 0 4px;
+}
+
+.sidePanelCol {
+  flex-shrink: 0;
+  height: 100%;
+  z-index: 20;
+  display: flex;
+}

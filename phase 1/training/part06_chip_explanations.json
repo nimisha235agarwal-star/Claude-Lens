@@ -1,0 +1,59 @@
+{
+  "version": "1.0",
+  "chip_explanations": [
+    {
+      "id": "e3cb27844303eb2d",
+      "sentence": "Top MBA programs can significantly accelerate careers in consulting and finance.",
+      "label": "well_supported",
+      "explanation": "Consistent across GMAC employer surveys, school employment reports, and third-party rankings over the past decade. Recruiting pipelines from top programs into consulting and banking are well-documented."
+    },
+    {
+      "id": "01e035cbf1657c37",
+      "sentence": "Median starting salaries range from $150,000 to $175,000.",
+      "label": "well_supported",
+      "explanation": "Sourced from published employment reports of top-10 programs. Note that median masks significant variance — outcomes below this range are common depending on industry and geography."
+    },
+    {
+      "id": "c62e8794eac47a6b",
+      "sentence": "The job market for MBA graduates has remained strong.",
+      "label": "inferred",
+      "explanation": "Based on 2023 and 2024 data. Market conditions for 2027 are extrapolated, not confirmed. Tech sector softness since 2022 is a signal that aggregate figures may not reflect all segments."
+    },
+    {
+      "id": "7d94b9fc41a07b5d",
+      "sentence": "An MBA adds less value if you are already on a clear technical track.",
+      "label": "multiple_interpretations",
+      "explanation": "Career advisors disagree on this. Some argue even technical professionals benefit from general management credentials. Others cite data showing technical promotions correlate with output, not credentials."
+    },
+    {
+      "id": "8732dd82d6ff1a73",
+      "sentence": "The network argument is frequently overstated.",
+      "label": "speculative",
+      "explanation": "This is a perspective held by some career coaches but lacks large-scale longitudinal data. Alumni network impact on career outcomes is difficult to isolate from other variables."
+    },
+    {
+      "id": "94d574bb197fe335",
+      "sentence": "The MBA brand premium may be declining as skills-based hiring rises.",
+      "label": "limited_evidence",
+      "explanation": "Early signals from LinkedIn hiring data and employer surveys suggest movement toward skills-based evaluation, but this trend is nascent and not yet conclusive across industries."
+    },
+    {
+      "id": "73b0854d6e4a024d",
+      "sentence": "The 2027 timing introduces uncertainty that cannot be predicted with confidence.",
+      "label": "requires_human_judgment",
+      "explanation": "Macroeconomic forecasting at a three-year horizon has significant error margins. This claim reflects genuine epistemic limits rather than weak sourcing."
+    },
+    {
+      "id": "49ca5e85ff64dc4f",
+      "sentence": "ROI drops significantly for part-time and online programs when network access is limited.",
+      "label": "inferred",
+      "explanation": "Logical inference from the structure of on-campus recruiting. Some evidence from employer surveys supports this but the causal link between program format and ROI has not been rigorously isolated."
+    },
+    {
+      "id": "2c9c36f776e99c0e",
+      "sentence": "Consulting and banking remain industries where the MBA has clearest structural value.",
+      "label": "strongly_supported",
+      "explanation": "McKinsey, BCG, Bain, Goldman Sachs, and JP Morgan all publish campus recruiting lists that are dominated by top MBA programs. This is one of the most consistently documented facts in MBA career literature.\n\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+    }
+  ]
+}
