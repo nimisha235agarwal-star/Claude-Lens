@@ -1,4 +1,0 @@
-fastapi
-uvicorn[standard]
-groq>=0.18.0
-python-dotenv
