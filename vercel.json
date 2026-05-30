@@ -1,0 +1,9 @@
+{
+  "builds": [
+    {
+      "src": "phase 2/package.json",
+      "use": "@vercel/next"
+    }
+  ],
+  "outputDirectory": ".next"
+}
